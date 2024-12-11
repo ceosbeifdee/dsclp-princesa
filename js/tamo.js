@@ -43,6 +43,8 @@ const elogios = [
     , "dama"
     , "pitelzinho"
     , "mulher"
+    , "metaleira"
+    , "Ingryd"
     , "boneca"
     , "princesinha"
     , "tchuca"
