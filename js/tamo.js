@@ -39,15 +39,17 @@ let btn = document.querySelector(".btn")
 
 const elogios = [
     "linda"
+    , "fofa"
+    , "perfeita"
 ]
 
-let msg = document.querySelector(".msg")
+let msga = document.querySelector(".msga")
 
 function msg() {
     let i = Math.floor(Math.random() * elogios.length)
     let randomMsg = elogios[i]
 
-    msg.innerHTML = randomMsg
+    msga.innerHTML = randomMsg
 }
 
 btn.addEventListener("click", msg)
